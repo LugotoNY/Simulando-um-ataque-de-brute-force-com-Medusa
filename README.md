@@ -1,2 +1,4 @@
 # Simulando-um-ataque-de-brute-force-com-Medusa
 Repositorio que irá conter a resolução do desafio da DIO
+
+Nesse curso utilizamos uma VM rodando o Kali Linux para efetuar nossa simulação de ataque brute-force. Vale ressaltar que utilizamos para esse laboratório, o Metasploitable 2 para explorar as vulnerabilidades pré-concebidas. O primeiro teste consistiu na criação de wordlists. Com elas pudemos testar varios nomes de usuarios e senhas até encontrar uma combinação correta. Depois usamos do recurso de password spray, que seria testar varias senhas comuns ao ambiente em varios usuarios diferentes. Antes disso , utilizamos o medusa para encontrar os usuarios existentes, e neles testamos as senhas. E para ver se realmente funcionou, usamos o smbclient para testar o usuario e senha encontrados.
